@@ -1,0 +1,33 @@
+nav {
+    background-color: rgb(69, 67, 67);
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem;
+    margin-top: 0px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    margin: auto 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;   
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}

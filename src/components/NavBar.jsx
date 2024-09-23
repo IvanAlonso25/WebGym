@@ -1,14 +1,14 @@
-import 'NavBar.css';
+import '../styles/NavBar.css';
 
 function NavBar() {
   return (
     <nav>
       <ul>
         <li>
-          <a href="/plan">PLANES</a>
+          <a href="./Planes">PLANES</a>
         </li>
         <li>
-          <a href="/app">APP</a>
+          <a href="./AppWeb">APP</a>
         </li>
         <li>
           <a href="/nutrition">NUTRICION</a>

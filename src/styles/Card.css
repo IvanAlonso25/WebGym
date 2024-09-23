@@ -1,0 +1,37 @@
+h1 {
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0 0 10px #0000001a;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btnComprar {
+    border: 1px solid #09f839;
+    border-radius: 5px;
+    width: max-content;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+.btnComprar:hover {
+    background-color: #09f839;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
