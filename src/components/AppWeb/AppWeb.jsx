@@ -1,7 +1,7 @@
 function AppWeb() {
   return (
     <>
-        <h1>WebGym</h1>
+        <h1>APP WEB</h1>
     </>
   );
 }

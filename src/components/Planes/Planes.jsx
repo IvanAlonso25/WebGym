@@ -1,11 +1,9 @@
 import { Card } from './Card';
 
-function Planes() {
+export function Planes() {
     return (
         <>
             <Card />
         </>
     )
 }
-
-export { Planes };
