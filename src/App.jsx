@@ -1,11 +1,16 @@
-import './styles/App.css'
+import { useEffect, useState } from 'react'
+
 import './styles/Index.css'
 import './styles/Footer.css';
+
+import { EVENTS } from './js/consts'
 import { HomePage } from './components/HomePage/HomePage';
 import { Planes } from './components/Planes/Planes';
 import { AppWeb } from './components/AppWeb/AppWeb';
-import { useEffect, useState } from 'react'
-import { EVENTS } from './js/consts'
+import { Nutricion } from './components/Nutricion/Nutricion';
+import { AppWebNutricion } from './components/AppWebNutricion/AppWebNutricion';
+import { Asesorias } from './components/Asesorias/Asesorias';
+import { Contacto } from './components/Contacto/Contacto';
 
 function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname)
@@ -28,6 +33,10 @@ function App() {
       { currentPath === '/' && <HomePage /> }
       { currentPath === '/Planes' && <Planes /> }
       { currentPath === '/AppWeb' && <AppWeb /> }
+      { currentPath === '/Nutricion' && <Nutricion /> }
+      { currentPath === '/AppWebNutricion' && <AppWebNutricion /> }
+      { currentPath === '/Asesorias' && <Asesorias /> }
+      { currentPath === '/Contacto' && <Contacto /> }
     </>
   )
 }

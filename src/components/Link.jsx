@@ -22,7 +22,7 @@ export function Link({ target, to, ...props }) {
         const isManageableEvent = target === undefined || target === '_self'
 
 
-        if (!isMainClick || isModifiedEvent || !isManageableEvent) {
+        if (isMainClick || isModifiedEvent || !isManageableEvent) {
             navigate(to) // navegacion con spa
         }
     }

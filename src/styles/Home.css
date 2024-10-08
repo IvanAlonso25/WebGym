@@ -1,3 +1,7 @@
-h1 {
+.infoGeneral h1 {
+    border: none;
+}
+
+.description h1 {
     border: none;
 }
