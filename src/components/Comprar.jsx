@@ -1,15 +1,9 @@
-function Comprar() {
-    const compraRealizada = (producto) => {
-        alert(`Has comprado ${producto}`);
-    }
-
+export function Comprar() {
     return (
         <>
             <div>
-                <h1>{compraRealizada()}</h1>
+                <h1>Comprar</h1>
             </div>
         </>
     )
 }
-
-export { Comprar };

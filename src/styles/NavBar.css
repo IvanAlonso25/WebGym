@@ -1,6 +1,6 @@
 nav {
-    background-color: rgb(69, 67, 67);
     display: flex;
+    margin-bottom: 120px;
     justify-content: center;
     padding: 1rem 2rem;
     margin-top: 0px;
@@ -14,6 +14,12 @@ ul {
     width: 100%;
 }
 
+.img {
+    display: inherit;
+    width: 100%;
+    height: auto;
+}
+
 li {
     display: inline;
     margin: auto 1rem;
@@ -21,13 +27,75 @@ li {
 
 li a {
     text-decoration: none;
-    color: black;
-    border: 1px solid black;
+    color: #80ff00;
     border-radius: 15px;
     padding: 0.5rem 1rem;   
 }
 
 li a:hover {
-    background-color: black;
-    color: white;
+    color: #60c000;
 }
+
+ul li img {
+    width: 100px;
+    height: auto;
+    margin-right: 5rem;
+}
+
+.btnContacto {
+    text-decoration: none;
+    color: #80ff00;
+    border: 1px solid #80ff00;;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 40.5%; /* Solucionar para desplegar el menu justo debajo de PLANES */
+    width: auto;
+  }
+  
+  .dropdown-menu li {
+    display: block;
+    width: auto;
+    position: relative;
+    text-align: left;
+  }
+  
+  .dropdown-menu li a {
+    padding: 12px 16px;
+    color: #80ff00;
+    display: block;
+    background-color: rgb(0, 0, 0, 0.8);
+    text-decoration: none;
+    align-items: left;
+    justify-content: left;
+    
+  }
+  
+  .dropdown-menu li a:hover {
+    color: #60c000 ;
+  }
+
+  .dropdown {
+    text-decoration: none;
+    color: #80ff00;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .rrss {
+    margin-left: 12rem;
+    display: flex;
+  }
+
+  .rrss div {
+    margin: 0 0.5rem;
+  }
