@@ -1,11 +1,13 @@
-import '../../styles/Home.css';
-
-import { Home } from './Home';
+import { Motivos } from './Motivos.jsx';
+import { Planes } from './Planes.jsx';
+import { Unete } from './Unete.jsx';
 
 export function HomePage() {
     return (
         <>
-            <Home />
+            <Planes />
+            <Motivos />
+            <Unete />
         </>
     )
 }

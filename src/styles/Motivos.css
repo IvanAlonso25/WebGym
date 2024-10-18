@@ -1,0 +1,80 @@
+hr {
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid #80ff00;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.container h1 {
+    border-left: 2px solid #80ff00;
+    border-right: 2px solid #80ff00;
+    border-radius: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.grid-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+}
+
+.grid-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-right: 1px solid #80ff00;
+    border-radius: 10px;
+}
+
+.two-boxs {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tow-boxs-down {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box {
+    margin: 20px;
+    padding: 30px;
+    box-shadow: inset 20px 5px 10px #3a2828, inset -5px -5px 10px #503838;
+    border-radius: 50px;
+}
+
+.box-down {
+    margin: 20px;
+    padding: 30px;
+    box-shadow: inset 20px 5px 10px #3a2828, inset -5px -5px 10px #503838;
+    border-radius: 50px;
+    width: 50%;
+}
+
+.box h3 {
+    color: #80ff00;
+    display: block;
+    display: inline;
+}
+
+.box p {
+    display: block;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+

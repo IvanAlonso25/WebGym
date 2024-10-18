@@ -5,7 +5,7 @@ import './styles/Footer.css';
 
 import { EVENTS } from './js/consts'
 import { HomePage } from './components/HomePage/HomePage';
-import { Planes } from './components/Planes/Planes';
+import { Planes } from './components/HomePage/Planes';
 import { AppWeb } from './components/AppWeb/AppWeb';
 import { Nutricion } from './components/Nutricion/Nutricion';
 import { AppWebNutricion } from './components/AppWebNutricion/AppWebNutricion';

@@ -1,24 +1,29 @@
-import '../../styles/Botons.css'
 import '../../styles/AppWeb.css'
+import '../../styles/Botons.css'
 
 import { Link } from '../Link';
+import bienCara from '../../resources/bienCara.jpg'
 
 export function AppWeb() {
   return (
     <>
-      <div className='card'>
-        <h1>APP WEB</h1>
-        <div>
-          <p>Acceso a la aplicación donde podrás ver todos los entrenamientos. Cada cirto tiempo se va actualizando con nuevos entrenamientos y
-            rutinas de el ejercicio que desees. Además, podrás ver tu progreso y marcar tus objetivos.
-          </p>
+      <div className='app-grid'>
+        <div className='text-column'>
+          <div>
+            <h2>Los mejores entrenamientos agrupados por músculos</h2>
+            <h3>Este plan incluye:</h3>
+            <p>✅ Acceso a la app durante 12 meses </p>
+            <p>✅ Actualización de los entrenamientos cada mes </p>
+            <p>✅ Ejercicios guiados con una serie de videos y explicaciones </p>
+            <p>✅ Disponible para IOS y Android </p>
+            <p>✅ Nos encanta ver cómo se sienten más seguros de sí mismos. </p>
+          </div>
+          <div className='btnComprarEspecifico'>
+            <Link to='/Comprar'>Comprar <strong>(30€ / año)</strong></Link>
+          </div>
         </div>
-        <div>
-          <p>También te dará acceso a un canal privado de telegram donde te juntaras con todos los que tengan el mismo plan que tú.</p>
-        </div>
-        <h1>FALTA EXPLICACION</h1>
-        <div className='btnComprar'>
-          <Link to='/Comprar'>Comprar <strong>(50€ / mes)</strong></Link>
+        <div className='img-right'>
+          <img src="" alt="imagen mia" />
         </div>
       </div>
 

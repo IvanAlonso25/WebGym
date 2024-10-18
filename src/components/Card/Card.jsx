@@ -6,56 +6,51 @@ import { Link } from '../Link';
 export function Card() {
     return (
         <>
-            <div className='titulo'>
-                <h2>PLANES</h2>
-            </div>
             <div className="plans">
                 <div className="card">
                     <div>
-                        <h1>APP WEB</h1>
+                        <h1>1. APP</h1>
                     </div>
                     <div>
-                        <img src="" alt="app web" />
-                        <p>Acceso a la app de entrenamiento con seguimiento de progreso y asesoramiento.</p>
+                        <p>Un plan de iniciación a los entrenamientos por tu cuenta pero con una guía de ejercicios para seguir una rutina.</p>
                     </div>
                     <div className="btnComprar">
-                        <Link to="/AppWeb">MAS INFO</Link>
+                        <Link to="/AppWeb">➔</Link>
                     </div>
                 </div>
                 <div className="card">
                     <div>
-                        <h1>NUTRICION</h1>
+                        <h1>2. NUTRICION</h1>
                     </div>
                     <div>
-                        <img src="" alt="nutricion" />
-                        <p>Asesoramiento nutricional personalizado y seguimiento de progreso.</p>
+                        <p>Si tu objetivo es mantener una dieta sana y equilibrada, para poder ver los cambios físicos mas rapidamente,
+                            este plan es el ideal para ti. 
+                        </p>
                     </div>
                     <div className="btnComprar">
-                        <Link to="/Nutricion">MAS INFO</Link>
+                        <Link to="/Nutricion">➔</Link>
                     </div>
                 </div>
                 <div className="card">
                     <div>
-                        <h1>APP WEB + NUTRICION</h1>
+                        <h1>3. APP + NUTRICION</h1>
                     </div>
                     <div>
-                        <img src="" alt="app web + nutricion" />
                         <p>Acceso a la app de entrenamiento y asesoramiento nutricional personalizado.</p>
                     </div>
                     <div className="btnComprar">
-                        <Link to="/AppWebNutricion">MAS INFO</Link>
+                        <Link to="/AppWebNutricion">➔</Link>
                     </div>
                 </div>
                 <div className="card">
                     <div>
-                        <h1>ASESORIAS</h1>
+                        <h1>4. FOR YOU</h1>
                     </div>
                     <div>
-                        <img src="" alt="asesorias" />
                         <p>Acceso a la app de entrenamiento y asesoramiento nutricional personalizado.</p>
                     </div>
                     <div className="btnComprar">
-                        <Link to="/Asesorias">MAS INFO </Link>
+                        <Link to="/Asesorias">➔</Link>
                     </div>
                 </div>
             </div>

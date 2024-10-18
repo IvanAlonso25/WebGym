@@ -1,6 +1,44 @@
-.AppWeb {
-    text-align: center;
-    width: 70%;
-    margin: 10px auto;
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.text-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-right: 1px solid #80ff00;
+    border-radius: 10px;
+}
+
+.text-column div {
+    margin: 20px;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.text-column h2 {
+    margin-bottom: 50px;
+    display: inline-block;
+    text-align: left;
+    opacity: 0.6;
+}
+
+.text-column h3 {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.text-column p {
+    margin: 20px;
+    text-align: left;
+    opacity: 0.8;
 }
 
