@@ -2,7 +2,6 @@ import '../../styles/AppWeb.css'
 import '../../styles/Botons.css'
 
 import { Link } from '../Link';
-import bienCara from '../../resources/bienCara.jpg'
 
 export function AppWeb() {
   return (

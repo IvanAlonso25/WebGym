@@ -1,0 +1,45 @@
+.grid-nutrition {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+.grid-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+    border-right: 1px solid #80ff00;
+    border-radius: 10px;
+}
+
+.grid-four-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 10px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+}
+
+.box-nutricion {
+    margin: 20px;
+    width: 200px;
+    padding: 30px;
+    box-shadow: inset 20px 5px 10px #3a2828, inset -5px -5px 10px #503838;
+    border-radius: 50px;
+}
+
+.box-nutricion h3 {
+    color: #80ff00;
+}
+
+.grid-text h2 {
+    color: #80ff00;
+}
+
+.container ul li {
+    opacity: 0.6;
+}

@@ -23,3 +23,19 @@
     padding: 0.5rem 1rem;
     font-weight: bold;
 }
+
+.btnComprarEspecificoNutricion {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 0.5rem 1rem;
+}
+
+.btnComprarEspecificoNutricion a {
+    text-decoration: none;
+    color: #80ff00;
+    border: 1px solid #80ff00;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}

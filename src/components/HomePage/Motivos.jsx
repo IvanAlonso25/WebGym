@@ -6,7 +6,6 @@ export function Motivos() {
         <>
             <div className='container'>
                 <h1>SE TU MEJOR VERSIÓN</h1>
-                <hr />
                 <div className='grid-columns'>
                     <div className='grid-text'>
                         <p>✅ Nos encanta ver cómo se sienten mejor consigo mismos y cómo se sienten más seguros de sí mismos. </p>
