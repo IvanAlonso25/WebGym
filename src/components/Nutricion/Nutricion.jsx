@@ -6,6 +6,7 @@ import { Link } from '../Link';
 export function Nutricion() {
     return (
         <>
+            <h1>NUTRICION</h1>
             <div className="grid-nutrition">
                 <div className="grid-text">
                     <h2>La nutrición es lo mas importante dentro de un plan de entrenamiento</h2>
@@ -21,7 +22,7 @@ export function Nutricion() {
                         </ul>
                     </div>
                 </div>
-                <div className="grid-four-columns">
+                <div className="two-box">
                     <div className="box-nutricion">
                         <h3>ALIMENTACIÓN</h3>
                         <p>Con la alimentación y el ejercicio físico, junto con un seguimiento y las herramientas necesarias conseguirás los resultados que buscas.</p>

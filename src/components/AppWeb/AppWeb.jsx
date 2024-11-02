@@ -6,6 +6,7 @@ import { Link } from '../Link';
 export function AppWeb() {
   return (
     <>
+      <h1>APP</h1>
       <div className='app-grid'>
         <div className='text-column'>
           <div>

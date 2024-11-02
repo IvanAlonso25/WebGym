@@ -52,14 +52,6 @@
     border-radius: 50px;
 }
 
-.box-down {
-    margin: 20px;
-    padding: 30px;
-    box-shadow: inset 20px 5px 10px #3a2828, inset -5px -5px 10px #503838;
-    border-radius: 50px;
-    width: 50%;
-}
-
 .box h3 {
     color: #80ff00;
     display: block;
