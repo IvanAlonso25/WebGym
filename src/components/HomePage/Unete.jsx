@@ -24,10 +24,8 @@ export function Unete() {
                 <div className='container-form'>
                     <h2>Unete a nosotros</h2>
                     <form action="send-mail" className='form'>
-                        <label htmlFor="nombre">Tu nombre</label>
-                        <input id="nombre" type="text" required/>
-                        <label htmlFor="correo">Correo diario</label>
-                        <input id='correo' type="mail" required/>
+                        <input id="nombre" placeholder='Nombre' type="text" required/>
+                        <input id='correo' placeholder='Correo' type="mail" required/>
                     </form>
                     <button id='btnEnviar' onClick={enviarSolicitud}>Enviar</button>
                 </div>

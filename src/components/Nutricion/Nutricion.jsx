@@ -6,12 +6,19 @@ import { Link } from '../Link';
 export function Nutricion() {
     return (
         <>
-            <h1>NUTRICION</h1>
+            <div className="title">
+                <h1>NUTRICIÓN</h1>
+            </div>
             <div className="grid-nutrition">
                 <div className="grid-text">
-                    <h2>La nutrición es lo mas importante dentro de un plan de entrenamiento</h2>
-                    <strong>El 70% de los resultados llegan gracias a la nutrición</strong>
-                    <p>Con este plan obtendrás un plan dietético sano y equilibrado. Para poder llegar a nuestro objetivo es uno de los
+                    <div>
+                        <h2>¿Tienes una rutina de gimnasio y quieres empezar con una buena alimentación?</h2>
+                        <h3>¡Entonces, este plan es perfecto para ti!</h3>
+                    </div>
+                    <h4>*La nutrición es lo mas importante dentro de un plan de entrenamiento*
+                        <br /><strong>El 70% de los resultados llegan gracias a la nutrición</strong>
+                    </h4>
+                    <p>Con este plan obtendrás un plan dietético sano y equilibrado. <br />Para poder llegar al objetivo, es uno de los
                         puntos claves.
                     </p>
                     <div className="container">
@@ -42,7 +49,7 @@ export function Nutricion() {
                 </div>
             </div>
             <div className="btnComprarEspecificoNutricion">
-                <Link to="/Comprar">Comprar <strong>(50€ / mes)</strong></Link>
+                <Link to="/Comprar">Comprar <strong>(30€ / mes)</strong></Link>
             </div>
         </>
     )
